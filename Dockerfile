@@ -1,4 +1,4 @@
-FROM node:15
+FROM node:alphine
 
 WORKDIR /app
 
@@ -6,4 +6,6 @@ COPY . .
 
 RUN npm install
 
-CMD ["npm", "start"]
+EXPOSE 5000
+
+CMD ["npm", "run", "start"]
