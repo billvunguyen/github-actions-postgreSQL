@@ -39,7 +39,7 @@ jobs:
       # build and test the apps     
       - name: build
         run: |
-          npm run build
+          npm run build --if-present
           npm run test
 
   push_to_Docker_Hub:
