@@ -16,7 +16,8 @@
     "start": "node server.js",
     "migrate": "node scripts/migrate.js",
     "seed": "node scripts/seed.js",
-    "test": "jest"
+    "test": "jest",
+    "build": "echo Test build completed! No package was uploaded"
   },
   "keywords": [],
   "author": "",
